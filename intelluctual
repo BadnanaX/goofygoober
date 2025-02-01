@@ -3208,18 +3208,3 @@ GmSection:AddToggle({
        
     end
 })
-        else
-           print("Key is invalid")
-        end
-    end
-})
-
-local supportkey = Tabs.KeySys:AddButton({
-    Title = "Copy Discord",
-    Description = "Join Discord for support!",
-    Callback = function()
-       setclipboard("https://discord.gg/p3GxyYDUHF")
-    end
-})
-
-Window:SelectTab(1)
